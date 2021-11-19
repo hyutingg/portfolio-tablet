@@ -74,7 +74,7 @@ nav a{
 
 nav a:hover, .active{
     color: #362C2C;
-    background-color: 
+    background-color: #F1E0C9;
     text-decoration: underline;
 }
 
