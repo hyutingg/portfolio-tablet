@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="contact-form">
+    <div class="nav">
+      <nav class = "nav_links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Peanut</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contacts.html" class="active">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="parallax">
+      <h1>Contacts</h1>
+    </header>
+    <main id="main" class="form">
+      <div id="contact-info">
+        <h2>Connect With Me and Peanut!</h2>
+        <h3>Email</h3>
+        <p><a class="web-link" href="mailto:hyuting@umich.edu">hyuting@umich.edu</a></p>
+        <h3>Peanut's Instagram</h3>
+        <p><a class="web-link" href="https://www.instagram.com/emilyhaspeanut/">@emilyhaspeanut</a></p>
+        <h3>LinkedIn</h3>
+        <p><a class="web-link" href="https://www.linkedin.com/in/amanda-yu-ting-hsu-217221170/" target="_blank">https://www.linkedin.com/in/amanda-yu-ting-hsu-217221170/</a></p>
+      </div>
+      <div class="form-content">
+        <h2 id="form-title">Anything you'd like to discuss?</h2>
+        <form action="https://formspree.io/xleegzbl" method="POST">
+          <label for="name">Name</label>
+          <input type="text" required id="name" name="name">
+
+          <label for="email">Email</label>
+          <input type="text" required id="email" name="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" required name="message"></textarea>
+
+          <div id="submit">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    </div>
+      
+    </main>
+    <footer>
+      <p>&copy;Amanda Hsu, SI 539 Portfolio Project</p>
+    </footer>
+  </div>
+  </body>
+</html>
