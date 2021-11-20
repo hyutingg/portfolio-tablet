@@ -26,19 +26,19 @@ h2, h3{
 p{
     padding: 10px;
     line-height: 1.1;
-    color: #362C2C;
+    color: #221C1C;
 }
 
 h1{
     font-size: 70px;
     text-align: center;
     margin: 0 auto;
-    color: #362C2C;
+    color: #221C1C;
 }
 
 h2{
     font-size: 40px;
-    color: #362C2C;
+    color: #221C1C;
 }
 
 .form h2{
@@ -65,7 +65,7 @@ nav li{
 }
 
 nav a{
-    color: #362C2C;
+    color: #221C1C;
     font-weight: bold;
     padding: 8px;
     border-radius: 5px;
@@ -73,13 +73,13 @@ nav a{
 }
 
 nav a:hover, .active{
-    color: #362C2C;
+    color: #221C1C;
     background-color: #F1E0C9;
     text-decoration: underline;
 }
 
 nav a:visited{
-    color: #362C2C;
+    color: #221C1C;
 }
 
 header{
@@ -121,7 +121,7 @@ input[type=text], select, textarea {
 }
 input[type=submit] {
     background-color: #F1E0C9;
-    color: #362C2C;
+    color: #221C1C;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -261,7 +261,7 @@ input[type=submit] {
     grid-row: 1 / span 1;
     margin-top: 40px;
     align-self: center;
-    background-color: #362C2C;
+    background-color: #221C1C;
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
@@ -275,7 +275,7 @@ input[type=submit] {
 .form-content {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    background-color: #362C2C;
+    background-color: #221C1C;
     color: #F1E0C9;
     padding: 20px;
     border-radius: 10px;
@@ -388,7 +388,7 @@ input[type=submit] {
     }
 
     .flip-card-back{
-        background-color: #CCADA4;
+        background-color: #DAC4BE;
         color: white;
         transform: rotateY(180deg);
         padding: 10px;
